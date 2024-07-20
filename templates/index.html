@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <h1>Simple Flask App</h1>
+        <img src="{{ url_for('static', filename='images/example.png') }}" alt="Example Image" class="example-image">
         <input type="text" id="textField" placeholder="Enter some text">
         <button id="submitButton">Submit</button>
         <p id="response"></p>
